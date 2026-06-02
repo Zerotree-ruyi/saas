@@ -1,0 +1,21 @@
+{
+  "name": "cash360-db",
+  "version": "1.0.0",
+  "description": "账王 SaaS 本地数据库模块",
+  "main": "dist/db.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node server/api.js",
+    "dev": "npm run build && node server/api.js",
+    "api": "npm run build && node server/api.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sql.js": "^1.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}

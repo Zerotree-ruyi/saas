@@ -1,0 +1,10 @@
+node_modules/
+dist/
+
+data/*.db
+server/data/*.db
+
+*.log
+*.tmp
+.env
+server/.env
